@@ -1,0 +1,25 @@
+{
+    "products" : [
+        {
+            "id": 1,
+            "name": "iPhone 11",
+            "price": "Rs.64,999",
+            "description": "Apple iphone 11 64GB | 3GB",
+            "url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTD7V8QJn_nDcBFaasygys2BLyO5g6zRMWeZWz5AphfVgxciUWW7h8&usqp=CAc"
+        },
+        {
+            "id": 2,
+            "name": "iPhone 11 Pro",
+            "price": "Rs.1,00,000",
+            "description": "Apple iphone 11 Pro 64GB | 3GB",
+            "url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQuReRulQGju25kAz8hKQrVE2YtSsOXFCPGb4F7T2wdgLyx3oABSA&usqp=CAc"
+        },
+        {
+            "id": 3,
+            "name": "iPhone 11 Pro Max",
+            "price": "Rs.1,10,000",
+            "description": "Apple iphone 11 Pro Max 64GB | 3GB",
+            "url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRzvdjE7YmrXzywtAVRi1oChwGTxs6wUJgM5QhOlAg4kUozpVlj4g&usqp=CAc"
+        }
+    ]
+}
