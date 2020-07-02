@@ -20,6 +20,42 @@
             "price": "Rs.1,10,000",
             "description": "Apple iphone 11 Pro Max 64GB | 3GB",
             "url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRzvdjE7YmrXzywtAVRi1oChwGTxs6wUJgM5QhOlAg4kUozpVlj4g&usqp=CAc"
+        },
+        {
+            "id": 4,
+            "name": "iPhone SE",
+            "price": "Rs.42,000",
+            "description": "Apple iphone SE 64GB | 3GB",
+            "url": "https://shop.unicornstore.in/uploads/images/medium/b62072e3f1ecf52347ce88ce47a8b838.png"
+        },
+        {
+            "id": 5,
+            "name": "Samsung S20",
+            "price": "Rs.60,000",
+            "description": "Samsung S20 64GB | 8GB",
+            "url": "https://www.gizmochina.com/wp-content/uploads/2020/01/Samsung-Galaxy-S20-5G-1-500x500.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Samsung S20+",
+            "price": "Rs.75,000",
+            "description": "Samsung S20+ 128GB | 8GB",
+            "url": "https://cdn-files.kimovil.com/default/0004/23/thumb_322972_default_big.jpeg"
+        },
+        {
+            "id": 7,
+            "name": "Samsung S20 Ultra",
+            "price": "Rs.85,000",
+            "description": "Samsung S20 Ultra 128GB | 12GB",
+            "url": "https://images-na.ssl-images-amazon.com/images/I/61vc-ZnxksL._SY550_.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Samsung Note 10",
+            "price": "Rs.90,000",
+            "description": "Samsung Note 10 128GB | 12GB",
+            "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRuRKhk0rCevFtxcSq28laIbwIAiHecY3vyekBMAv7ZuCe6hs7-tiQ&usqp=CAc"
         }
+
     ]
 }

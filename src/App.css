@@ -1,26 +1,46 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
   margin: 20px;
 }
 
 .Products{
   display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 100px;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  padding: 10px;
+  margin: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.productDetails{
+  display: inline-flex;
+  height: 500px;
+  width: 1000px;
+  box-shadow: 0px 0px 10px #282c34;
+  border-radius: 15px;
+}
+
+.productImg{
+  height: 400px;
+  width: 300px;
+  padding: 40px;
+
+}
+
+.prodDescription{
+  height: 400px;
+  width: 300px;
+  padding: 50px;
+  margin: 20px;
+}
+
+.back_btn{
+  background-color: crimson;
   color: white;
-}
-
-
-.App-link {
-  color: #61dafb;
+  margin: 30px;
+  font-size: 20px;
+  border: crimson;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 0px 0px 10px #282c34;
 }
