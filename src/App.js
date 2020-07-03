@@ -3,14 +3,18 @@ import './App.css';
 import store from  './store';
 import Product from './Components/Product.js';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Navbar from './Components/Navbar.js';
+
+
 
 function App() {
+
 
   const [list, setList] = useState([]);
   //const [cartList, setCartList] = useState([]);
 
   useEffect(() => {
-    fetch(" http://localhost:5000/products")
+    fetch(" http://localhost:5001/products")
       .then((res) => res.json())
       .then((result) => {
         store.dispatch({
@@ -27,20 +31,22 @@ function App() {
     setList(store.getState());
   });
   console.log(list.length);
-  
+  console.log(store.getState());
 
   return (
   <div className="App">
-    <h1>DTDL E-Shop</h1>
+    
     <Router>
+    <Navbar/>
       <Route
         path="/"
         exact
         render={() => (
           <div className = "Products">
+           
             {
               list.map((item) => (
-                  <Link to={"/" + list.indexOf(item)} style={{textDecoration:'none'}}>
+                  <Link to={"/" + list.indexOf(item)} style={{textDecoration:'none', color:'black'}}>
                     <Product
                       key = {item.id} 
                       name = {item.name} 
@@ -59,7 +65,6 @@ function App() {
           <div>
             <div className="productDetails">
               <img
-                className="card-img-top"
                 src={list[match.params.id].url}
                 alt="Card image cap"
                 className="productImg"></img>

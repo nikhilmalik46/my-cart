@@ -10,12 +10,12 @@ const product = (props) => {
           <h3>{ props.name }</h3>
           <h4>{ props.price }</h4>
           {/* <p>{ props.description }</p> */}
-          <button className="btn" onClick={() => store.dispatch({
+          <button onClick={() => store.dispatch({
           type: "add-to-cart",
           payload: {
             value: props.id,
           }
-        })}> Add to cart</button>
+        })} className='btn'> Add to cart</button>
 
         </div>
     );

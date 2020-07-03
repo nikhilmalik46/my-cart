@@ -15,7 +15,11 @@
 }
 
 .btn{
-    background-color: black;
+    background-color: crimson;
     color: white;
-    font: 16px;
-}
+    font-size: 14px;
+    border: crimson;
+    border-radius: 5px;
+    padding: 8px;
+    box-shadow: 0px 0px 10px #282c34;
+  }
